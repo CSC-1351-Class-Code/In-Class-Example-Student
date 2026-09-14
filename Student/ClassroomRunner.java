@@ -14,15 +14,15 @@ public class ClassroomRunner {
 		// In the classroom file, change where the sort call happens to see how slow the code can get
 		// if placed poorly
 		for(int i = 0; i < 500; i++){
-			Random rng = new Random();
-			String first = firstNames[rng.nextInt(firstNames.length)];
-			String last = lastNames[rng.nextInt(lastNames.length)];
-			classroom.enroll(new Student(first, last));
+			__ rng = new __();
+			String first = firstNames[rng.__(firstNames.__)];
+			String last = lastNames[rng.__(lastNames.__)];
+			classroom.__(new Student(__, __));
 		}
 
 		// We time here to demonstrate how intelligent usage of sorting in the classroom class affects code speed
 		long start = System.nanoTime();
-		classroom.printRoster();
+		classroom.__();
 		long end = System.nanoTime();
 
 		System.out.println((end-start)/1000000);

@@ -19,7 +19,7 @@ public class StudentRunner {
 		}
 
 		// By default, we sort by name, so this prints based on sorted last name, first name
-		Collections.sort(students);
+		//__.__(students);
 		System.out.println("============================");
 
 
@@ -28,8 +28,8 @@ public class StudentRunner {
 		}
 
 		// We change the criterion for sorting to be on ID and sort again
-		Student.setIDSort(true);
-		Collections.sort(students);
+		//Student.__(true);
+		//__.sort(students);
 		System.out.println("============================");
 
 
