@@ -46,7 +46,7 @@ public class Student implements Comparable<Student>{
 	// that uses a String.
 	// NOTE - we can still explicitly call this function
 	public String toString(){
-		return UID + " :: " + firstName + " " + lastName;
+		return String.format("%d :: %s %s", UID, firstName, lastName);
 	}
 
 	// Implementation of the compareTo function since we implement the Comparable interface
